@@ -1,25 +1,21 @@
 Filetype: Flipper NFC device
-Version: 4
-# Device type can be ISO14443-3A, ISO14443-3B, ISO14443-4A, ISO14443-4B, ISO15693-3, FeliCa, NTAG/Ultralight, Mifare Classic, Mifare Plus, Mifare DESFire, SLIX, ST25TB
-Device type: NTAG/Ultralight
-# UID is common for all formats
+Version: 2
+# Nfc device type can be UID, Mifare Ultralight, Mifare Classic, Bank card
+Device type: NTAG215
+# UID, ATQA and SAK are common for all formats
 UID: 04 B1 FF EA 66 12 90
-# ISO14443-3A specific data
-ATQA: 00 44
+ATQA: 44 00
 SAK: 00
 # NTAG/Ultralight specific data
-Data format version: 2
-NTAG/Ultralight type: NTAG215
-Signature: 27 4E 86 08 96 CE 28 B7 85 F7 60 7A 8F C4 13 77 EE 29 0D 90 4E 78 9F 36 8A 84 42 6C 44 D1 04 91
+Signature: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 Mifare version: 00 04 04 02 01 00 11 03
 Counter 0: 0
 Tearing 0: 00
 Counter 1: 0
 Tearing 1: 00
-Counter 2: 6
-Tearing 2: BD
+Counter 2: 0
+Tearing 2: 00
 Pages total: 135
-Pages read: 135
 Page 0: 04 B1 FF C2
 Page 1: EA 66 12 90
 Page 2: 0E 48 0F E0
